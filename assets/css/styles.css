@@ -304,6 +304,7 @@ svg {
   display: inline-block;
   background-color: var(--first-color);
   padding: 1rem 1.75rem;
+  margin: 0.3rem;
   border-radius: 0.5rem;
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -573,6 +574,9 @@ svg {
 @media screen and (max-width: 320px) {
   .container {
     margin-inline: 1rem;
+  }
+  .button {
+    margin-bottom: 10px;
   }
   .skills__content {
     grid-template-columns: max-content;
